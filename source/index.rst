@@ -10,6 +10,11 @@ Welcome to Next Search Catalog 19.05 training's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   agenda
+   part_1
+   part_2
+   part_3
+
 
 
 Indices and tables
