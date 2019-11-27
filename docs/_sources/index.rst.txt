@@ -3,8 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Next Search Catalog 19.05 training's documentation!
-==============================================================
+Next Search Catalog - Upgrade Training - Koha 19.05
+===================================================
 
 .. toctree::
    :maxdepth: 2
