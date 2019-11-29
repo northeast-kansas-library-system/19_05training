@@ -1,9 +1,13 @@
 Koha 19.05 Training Part 1
 ==========================
 
-Minor enhancements
-##################
+Changes to existing operation
+#############################
 
 -----
 
-.. include::  minor_enhancements/sample.rst
+.. include::  minor_enhancements/removetransit.rst
+
+-----
+
+..image:: ../images/next.small.png

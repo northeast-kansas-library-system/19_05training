@@ -20,7 +20,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Next Search Catalog 19.05 training'
-copyright = '2019, George Williams'
+copyright = '2019, NEKLS'
 author = 'George Williams'
 
 # The short X.Y version
