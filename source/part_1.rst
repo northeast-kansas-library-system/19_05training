@@ -9,5 +9,3 @@ Changes to existing operation
 .. include::  minor_enhancements/removetransit.rst
 
 -----
-
-..image:: ../images/next.small.png
