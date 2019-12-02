@@ -9,11 +9,11 @@ Next Search Catalog - Upgrade Training - Koha 19.05
 .. include:: agenda.rst
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Contents:
 
    clearcache/clearcache
-   cataloging
+   cataloging_overview
    part_1
    part_2
    part_3
