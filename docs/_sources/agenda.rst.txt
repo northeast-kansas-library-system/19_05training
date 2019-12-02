@@ -7,14 +7,6 @@ The upgrade will start sometime after all libraries have closed for the day and 
 
 NEKLS staff will run tests on Sunday morning and phone each open library on Sunday January 5 to make sure there are no unexpected problems.
 
-The rest of this website will cover most of the changes that will be added by this upgrade.  This site is divided into 3 parts:
+The rest of this website will cover most of the changes that will be added by this upgrade.
 
-1. :doc:`Part 1 <part_1>`
-2. :doc:`Part 2 <part_1>`
-3. :doc:`Part 3 <part_2>`
-
-As a reminder, before you log into Koha on the day after the upgrade, you must clear the cache on your browser.
-
------
-
-.. include::  C:/Users/George/Documents/GitHub/next.training/source/upgrades/cache.rst
+This site is divided into 4 parts:

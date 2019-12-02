@@ -1,6 +1,6 @@
 /* Override 800 pixel column width */
 .wy-nav-content {
-  max-width: 95%;
+  max-width: 80%;
 }
 
 /* Override top left header color */
