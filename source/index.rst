@@ -13,6 +13,7 @@ Next Search Catalog - Upgrade Training - Koha 19.05
    :caption: Contents:
 
    clearcache/clearcache
+   cataloging
    part_1
    part_2
    part_3

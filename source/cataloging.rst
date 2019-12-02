@@ -6,7 +6,11 @@ Cataloging changes
 
 -----
 
-Change to the interface
+.. include:: cataloging/cataloging.biblio.rst
+
+-----
+
+Changes to the add/edit item interface
 
 -----
 
