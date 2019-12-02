@@ -1,6 +1,10 @@
 Fine invoices and payment receipts now customizable
 ---------------------------------------------------
 
+Need a before/after receipt example.
+
+Need a before/after invoice example.
+
 Account payment receipt template:
 
 ::

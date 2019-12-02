@@ -1,7 +1,9 @@
-e-mail purchase suggestions to library
---------------------------------------
+E-mail purchase suggestions to the library
+------------------------------------------
 
 Currently, when a patron fills out the suggestion form in the OPAC, the only notification the library receives is an increase in the "Suggestions pending approval:" number on the home page in the staff client.
+
+See:
 
   .. image:: images/email.010.png
 
@@ -41,15 +43,15 @@ The box below contains the template for the e-mail message that the system will 
   </ul>
   </p>
 
-| Any text in <single angle brackets> is an HTML tag and should only be changed if you know HTML
-| Any text in [square brackets] is a template toolkit tag and should only be changed if you understand template toolkit
-| Any text in <<double angle brackets>> is a Koha database field and should only be changed if you know the Koha database schema
+| *Any text in <single angle brackets> is an HTML tag and should only be changed if you know HTML*
+| *Any text in [square brackets] is a template toolkit tag and should only be changed if you understand template toolkit*
+| *Any text in <<double angle brackets>> is a Koha database field and should only be changed if you know the Koha database schema*
 
-  * Q: What e-mail address does this go to?
+  * Q: **What e-mail address do suggestions go to?**
   * A: It goes to the e-mail address that is set up in Koha as the master e-mail address for your library.  If you're not sure which e-mail address this is, look at the library directory table on the Circulaton page in the staff client in the column labeled "Contact information."
 
-  - Q: Can adult suggestions go to one e-mail and youth suggestions go to a different address?
+  - Q: **Can adult suggestions go to one e-mail address and youth suggestions go to another?**
   - A: No.  All of the e-mails created when a patron fills out a suggestion form go to the same e-mail address and there is no way to change that.
 
-  * Q: Can you change this message for my library?
+  * Q: **Can you change this message for my library?**
   * A: This message can be configured on a library-by-library basis.  If you'd like it changed, please ask for changes at nexthelp@nekls.org
