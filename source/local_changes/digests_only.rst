@@ -21,3 +21,9 @@ Questions and answers
 
   * Q: Can patrons still modify their own "Digests only" settings.
   * A: Yes.  And we are working on that too.
+
+  - Q: Why aren't there "Digests only" options for the "Email check-in receipt" and "Email check-out/renewal receipt" notices?
+  - A: "Email check-in receipt" and "Email check-out/renewal receipt" digest automatically with one caveat - they are sent every 15 minutes at X:00, X:15, X:30, and X:45.  So, if a patron is checking out 50 items and you check 45 of those items out at 10:14 a.m. and the last 5 at 10:15 a.m., the patron will receive 1 e-mail with 45 items at 10:15 a.m. and a second e-mail with the additional 5 items at 10:30 a.m.
+
+  * Q: Why isn't there a "Digests only" option for the "Hold filled" message.
+  * A: Currently Koha does not have the ability to digest this message.  A development is underway that would add that function to the system.  When completed, this development would work similarly to the self-digesting "Email check-in receipt" and "Email check-out/renewal receipt" once-every-15-minutes schedule.

@@ -56,7 +56,9 @@ Account payment receipt template:
     </tfoot>
   </table>
 
-(Any text in the above template inside of [square brackets] is a template toolkit tag; any text inside of <single angle brackets> is an HTML tag - any text inside of <<double angle brackets>> is a Koha database field.)
+| Any text in <single angle brackets> is an HTML tag and should only be changed if you know HTML
+| Any text in [square brackets] is a template toolkit tag and should only be changed if you understand template toolkit
+| Any text in <<double angle brackets>> is a Koha database field and should only be changed if you know the Koha database schema
 
 Account invoice receipt template:
 
@@ -116,4 +118,7 @@ Account invoice receipt template:
     </tfoot>
   </table>
 
-(Any text in the above template inside of [square brackets] is a template toolkit tag; any text inside of <single angle brackets> is an HTML tag - any text inside of <<double angle brackets>> is a Koha database field.)
+
+| Any text in <single angle brackets> is an HTML tag and should only be changed if you know HTML
+| Any text in [square brackets] is a template toolkit tag and should only be changed if you understand template toolkit
+| Any text in <<double angle brackets>> is a Koha database field and should only be changed if you know the Koha database schema
