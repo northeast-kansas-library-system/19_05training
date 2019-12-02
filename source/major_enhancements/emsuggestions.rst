@@ -45,4 +45,11 @@ The box below contains the template for the e-mail message that the system will 
 | Any text in [square brackets] is a template toolkit tag and should only be changed if you understand template toolkit
 | Any text in <<double angle brackets>> is a Koha database field and should only be changed if you know the Koha database schema
 
-If any library would like this e-mail template updated, they should contact nexthelp@nekls.org.
+  * Q: What e-mail address does this go to?
+  * A: It goes to the e-mail address that is set up in Koha as the master e-mail address for your library.  If you're not sure which e-mail address this is, look at the library directory table on the Circulaton page in the staff client in the column labeled "Contact information."
+
+  -Q: Can adult suggestions go to one e-mail and youth suggestions go to a different address?
+  -A: No.  All of the e-mails created when a patron fills out a suggestion form go to the same e-mail address and there is no way to change that.
+
+  * Q: Can you change this message for my library?
+  * A: This message can be configured on a library-by-library basis.  If you'd like it changed, please ask for changes at nexthelp@nekls.org
