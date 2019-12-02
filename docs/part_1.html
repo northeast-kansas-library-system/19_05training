@@ -26,6 +26,7 @@
 
   <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/override.css" type="text/css" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Koha 19.05 Training Part 2" href="part_2.html" />
@@ -48,9 +49,12 @@
           
 
           
-            <a href="index.html" class="icon icon-home"> Next Search Catalog 19.05 training
+            <a href="index.html">
           
 
+          
+            
+            <img src="_static/next.grey.small.png" class="logo" alt="Logo"/>
           
           </a>
 
@@ -82,14 +86,14 @@
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="agenda.html">Koha 19.05 Trainng Overview</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Koha 19.05 Training Part 1</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#minor-enhancements">Minor enhancements</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#module-title">Module title</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#changes-to-existing-operation">Changes to existing operation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#in-transit-items-and-lost-and-missing-statuses">In transit items and lost and missing statuses</a></li>
 </ul>
 </li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="part_2.html">Koha 19.05 Training Part 2</a></li>
-<li class="toctree-l1"><a class="reference internal" href="part_3.html">Koha 19.05 Training Part 3</a></li>
+<li class="toctree-l1"><a class="reference internal" href="part_3.html">Koha 19.05 Training Part 2</a></li>
 </ul>
 
             
@@ -156,11 +160,15 @@
             
   <div class="section" id="koha-19-05-training-part-1">
 <h1>Koha 19.05 Training Part 1<a class="headerlink" href="#koha-19-05-training-part-1" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="minor-enhancements">
-<h2>Minor enhancements<a class="headerlink" href="#minor-enhancements" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="changes-to-existing-operation">
+<h2>Changes to existing operation<a class="headerlink" href="#changes-to-existing-operation" title="Permalink to this headline">¶</a></h2>
 <hr class="docutils" />
-<div class="section" id="module-title">
-<h3>Module title<a class="headerlink" href="#module-title" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="in-transit-items-and-lost-and-missing-statuses">
+<h3>In transit items and lost and missing statuses<a class="headerlink" href="#in-transit-items-and-lost-and-missing-statuses" title="Permalink to this headline">¶</a></h3>
+<p>When an item that is “In transit” from one library to another is marked as “Missing (unable to location on shelf)” the “In transit” status will now be removed.</p>
+<p>The current behavior is that when you change the status of an “In transit” item to “Missing (unable to location on shelf),” the item remains in transit and has the missing status added to the item.</p>
+<p>The new behavior prevents an item from being both “Missing” and “In transit” at the same time.</p>
+<hr class="docutils" />
 </div>
 </div>
 </div>
@@ -185,7 +193,7 @@
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2019, George Williams
+        &copy; Copyright 2019, NEKLS
 
     </p>
   </div>

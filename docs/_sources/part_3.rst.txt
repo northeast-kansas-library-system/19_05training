@@ -1,5 +1,8 @@
-Koha 19.05 Training Part 3
+Koha 19.05 Training Part 2
 ==========================
+
+Local changes
+#############
 
 -----
 
