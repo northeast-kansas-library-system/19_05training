@@ -8,5 +8,3 @@ The upgrade will start sometime after all libraries have closed for the day and 
 NEKLS staff will run tests on Sunday morning and phone each open library on Sunday January 5 to make sure there are no unexpected problems.
 
 The rest of this website will cover most of the changes that will be added by this upgrade.
-
-This site is divided into 4 parts:

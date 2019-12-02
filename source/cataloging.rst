@@ -10,6 +10,10 @@ Cataloging changes
 
 -----
 
+.. include:: cataloging/cataloging.fastadd.rst
+
+-----
+
 Changes to the add/edit item interface
 
 -----
