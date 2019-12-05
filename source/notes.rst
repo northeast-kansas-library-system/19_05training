@@ -5,6 +5,7 @@ George's notes
 #. January 4 - Saturday after hours
 #. Clear cache
 #. OPAC change - change password text
+
 #. OPAC change - Sort order on fines
   - use FROSTX011 as an example
 6. Email suggestions -
