@@ -1,5 +1,5 @@
 Koha 19.05 Training - OPAC
---------------------------
+==========================
 
 There are only a few minor changes to the Online Patron Access Catalog (OPAC) in this upgrade.
 
