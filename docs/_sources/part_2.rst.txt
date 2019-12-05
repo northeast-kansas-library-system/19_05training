@@ -15,18 +15,18 @@ Changes to fines/fees
 
 -----
 
-.. include:: finesfees/tablabels.rst
+.. include:: finesfees/accounts.labels.rst
 
 ------
 
-Columns on boraccount.pl (including item home library) - add a before/after picture
+.. include:: finesfees/accounts.details.rst
 
 ------
 
-Change calculation on fee payment
+.. include:: finesfees/accounts.moneyhandling.rst
 
 ------
 
-.. include:: finesfees/invoices.rst
+.. include:: finesfees/accounts.receipts.rst
 
 ------
