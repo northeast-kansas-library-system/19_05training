@@ -15,8 +15,8 @@ AFTER:
 
 BEFORE:
 
-.. image:: images/opac.changepassword.040.png
+.. image:: images/opac.changepassword.020.png
 
 AFTER:
 
-.. image:: images/opac.changepassword.020.png
+.. image:: images/opac.changepassword.040.png
