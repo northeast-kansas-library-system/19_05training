@@ -1,4 +1,4 @@
-Koha 19.05 Training - Cataloging
+Koha Upgrade - Cataloging
 ================================
 
 Cataloging changes
@@ -14,10 +14,10 @@ Cataloging changes
 
 -----
 
-Changes to the add/edit item interface
+.. include:: cataloging/item_edit.rst
 
 -----
 
-Advanced cataloging editor
+.. include:: cataloging/advancededitor.rst
 
 -----
