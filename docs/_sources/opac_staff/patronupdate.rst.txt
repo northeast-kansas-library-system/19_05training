@@ -5,19 +5,19 @@ A bug was introduced in the last upgrade that has been fixed in the new version 
 
 1. Once a week or so, check the link on the staff client home page that says "Patrons requesting modifications"
 
-.. image:: images/contact.info.010.png
+  .. image:: images/contact.info.010.png
 
 2. Review any changes you see to make sure the changes are acceptable.
 
-.. image:: images/contact.info.020.png
+  .. image:: images/contact.info.020.png
 
 3. If the changes are acceptable, click on the radio button that says "Approve" and then click on the "Submit" button at the bottom of the page.  This will update the patron's account.
 
-.. image:: images/contact.info.030.png
+  .. image:: images/contact.info.030.png
 
 4. If the changes are not acceptable, click on the radio button that says "Deny" and then click on the "Submit" button at the bottom of the page.  The patron's account will not be updated.
 
-.. image:: images/contact.info.040.png
+  .. image:: images/contact.info.040.png
 
 -----
 

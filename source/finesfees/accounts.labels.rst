@@ -9,8 +9,8 @@ The label on the "Fines and fees" tab has changed as well as some of the other t
 
 Before:
 
-.. image:: images/finefee.010.png
+  .. image:: images/finefee.010.png
 
 After:
 
-.. image:: images/finefee.020.png
+  .. image:: images/finefee.020.png

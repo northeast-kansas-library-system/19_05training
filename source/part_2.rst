@@ -1,4 +1,4 @@
-Koha Upgrade Part 2
+Koha 19.05 Training Part 2
 ==========================
 
 New features

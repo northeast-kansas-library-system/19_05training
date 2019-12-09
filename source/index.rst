@@ -13,7 +13,6 @@ Next Search Catalog - Upgrade Training - Koha 19.05
    :caption: Contents:
 
    clearcache/clearcache
-   selfcheck
    opac_changes
    opac_staff
    cataloging_overview

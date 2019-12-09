@@ -5,13 +5,13 @@ Currently, when a patron fills out the suggestion form in the OPAC, the only not
 
 See:
 
-.. image:: images/email.010.png
+  .. image:: images/email.010.png
 
 After the upgrade, in addition to an increase in the "Suggestions pending approval:," the system will automatically send an e-mail to the library's main e-mail address.
 
 Here is a copy of one of the new notices in a patron's messaging history on the test server:
 
-.. image:: images/email.020.png
+  .. image:: images/email.020.png
 
 The box below contains the template for the e-mail message that the system will be sending to your library's e-mail address when a patron submits a suggestion form:
 
