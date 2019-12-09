@@ -11,3 +11,5 @@ Local changes
 -----
 
 .. include::  local_changes\digests_only.rst
+
+-----

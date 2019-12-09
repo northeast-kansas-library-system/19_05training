@@ -19,5 +19,3 @@ After the upgrade, if the patron has any requests on the hold shelf waiting to b
 After the upgrade, patrons will be able to see any outstanding fees and their fee history on a new "Fees and charges" tab.
 
 .. image:: images/selfcheck.030.png
-
------
