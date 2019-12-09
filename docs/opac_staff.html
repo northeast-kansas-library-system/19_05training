@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Koha 19.05 Training - 1/2 OPAC - 1/2 staff &mdash; Next Search Catalog 19.05 training  documentation</title>
+  <title>Koha Upgrade - 1/2 OPAC - 1/2 staff &mdash; Next Search Catalog 19.05 training  documentation</title>
   
 
   
@@ -29,8 +29,8 @@
   <link rel="stylesheet" href="_static/override.css" type="text/css" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Koha 19.05 Training - Cataloging" href="cataloging_overview.html" />
-    <link rel="prev" title="Koha 19.05 Training - OPAC" href="opac_changes.html" /> 
+    <link rel="next" title="Koha Upgrade - Cataloging" href="cataloging_overview.html" />
+    <link rel="prev" title="Koha Upgrade - OPAC" href="opac_changes.html" /> 
 
   
   <script src="_static/js/modernizr.min.js"></script>
@@ -85,16 +85,18 @@
               <p class="caption"><span class="caption-text">Contents:</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="clearcache/clearcache.html">Clearing the cache on your browser</a></li>
-<li class="toctree-l1"><a class="reference internal" href="opac_changes.html">Koha 19.05 Training - OPAC</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Koha 19.05 Training - 1/2 OPAC - 1/2 staff</a><ul>
+<li class="toctree-l1"><a class="reference internal" href="selfcheck.html">Koha Upgrade - Self check changes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="opac_changes.html">Koha Upgrade - OPAC</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Koha Upgrade - 1/2 OPAC - 1/2 staff</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#e-mail-purchase-suggestions-to-the-library">E-mail purchase suggestions to the library</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#patron-contact-updates">Patron contact updates</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#movie-item-types-become-video-item-types">“Movie” item types become “Video” item types</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="cataloging_overview.html">Koha 19.05 Training - Cataloging</a></li>
-<li class="toctree-l1"><a class="reference internal" href="part_1.html">Koha 19.05 Training Part 1</a></li>
-<li class="toctree-l1"><a class="reference internal" href="part_2.html">Koha 19.05 Training Part 2</a></li>
-<li class="toctree-l1"><a class="reference internal" href="part_3.html">Koha 19.05 Training Part 3</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cataloging_overview.html">Koha Upgrade - Cataloging</a></li>
+<li class="toctree-l1"><a class="reference internal" href="part_1.html">Koha Upgrade Part 1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="part_2.html">Koha Upgrade Part 2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="part_3.html">Koha Upgrade Part 3</a></li>
 </ul>
 
             
@@ -140,7 +142,7 @@
     
       <li><a href="index.html">Docs</a> &raquo;</li>
         
-      <li>Koha 19.05 Training - 1/2 OPAC - 1/2 staff</li>
+      <li>Koha Upgrade - 1/2 OPAC - 1/2 staff</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -159,22 +161,18 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="koha-19-05-training-1-2-opac-1-2-staff">
-<h1>Koha 19.05 Training - 1/2 OPAC - 1/2 staff<a class="headerlink" href="#koha-19-05-training-1-2-opac-1-2-staff" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="koha-upgrade-1-2-opac-1-2-staff">
+<h1>Koha Upgrade - 1/2 OPAC - 1/2 staff<a class="headerlink" href="#koha-upgrade-1-2-opac-1-2-staff" title="Permalink to this headline">¶</a></h1>
 <p>These changes affect the way that the OPAC and the staff client interact</p>
 <hr class="docutils" />
 <div class="section" id="e-mail-purchase-suggestions-to-the-library">
 <h2>E-mail purchase suggestions to the library<a class="headerlink" href="#e-mail-purchase-suggestions-to-the-library" title="Permalink to this headline">¶</a></h2>
 <p>Currently, when a patron fills out the suggestion form in the OPAC, the only notification the library receives is an increase in the “Suggestions pending approval:” number on the home page in the staff client.</p>
 <p>See:</p>
-<blockquote>
-<div><img alt="_images/email.010.png" src="_images/email.010.png" />
-</div></blockquote>
+<img alt="_images/email.010.png" src="_images/email.010.png" />
 <p>After the upgrade, in addition to an increase in the “Suggestions pending approval:,” the system will automatically send an e-mail to the library’s main e-mail address.</p>
 <p>Here is a copy of one of the new notices in a patron’s messaging history on the test server:</p>
-<blockquote>
-<div><img alt="_images/email.020.png" src="_images/email.020.png" />
-</div></blockquote>
+<img alt="_images/email.020.png" src="_images/email.020.png" />
 <p>The box below contains the template for the e-mail message that the system will be sending to your library’s e-mail address when a patron submits a suggestion form:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">&lt;</span><span class="n">h3</span><span class="o">&gt;</span><span class="n">Suggestion</span> <span class="n">pending</span> <span class="n">approval</span><span class="o">&lt;/</span><span class="n">h3</span><span class="o">&gt;</span>
 <span class="o">&lt;</span><span class="n">p</span><span class="o">&gt;&lt;</span><span class="n">h4</span><span class="o">&gt;</span><span class="n">Suggested</span> <span class="n">by</span><span class="o">&lt;/</span><span class="n">h4</span><span class="o">&gt;</span>
@@ -230,27 +228,19 @@
 <ol class="arabic simple">
 <li>Once a week or so, check the link on the staff client home page that says “Patrons requesting modifications”</li>
 </ol>
-<blockquote>
-<div><img alt="_images/contact.info.010.png" src="_images/contact.info.010.png" />
-</div></blockquote>
+<img alt="_images/contact.info.010.png" src="_images/contact.info.010.png" />
 <ol class="arabic simple" start="2">
 <li>Review any changes you see to make sure the changes are acceptable.</li>
 </ol>
-<blockquote>
-<div><img alt="_images/contact.info.020.png" src="_images/contact.info.020.png" />
-</div></blockquote>
+<img alt="_images/contact.info.020.png" src="_images/contact.info.020.png" />
 <ol class="arabic simple" start="3">
 <li>If the changes are acceptable, click on the radio button that says “Approve” and then click on the “Submit” button at the bottom of the page.  This will update the patron’s account.</li>
 </ol>
-<blockquote>
-<div><img alt="_images/contact.info.030.png" src="_images/contact.info.030.png" />
-</div></blockquote>
+<img alt="_images/contact.info.030.png" src="_images/contact.info.030.png" />
 <ol class="arabic simple" start="4">
 <li>If the changes are not acceptable, click on the radio button that says “Deny” and then click on the “Submit” button at the bottom of the page.  The patron’s account will not be updated.</li>
 </ol>
-<blockquote>
-<div><img alt="_images/contact.info.040.png" src="_images/contact.info.040.png" />
-</div></blockquote>
+<img alt="_images/contact.info.040.png" src="_images/contact.info.040.png" />
 <hr class="docutils" />
 <blockquote>
 <div><ul class="simple">
@@ -270,6 +260,35 @@
 <li>A: The number after the text “Patrons requesting modifications” gives a count of requests system-wide but, when you click on the link, you will only see changes suggested for your library.</li>
 </ul>
 </div></blockquote>
+</div>
+<hr class="docutils" />
+<div class="section" id="movie-item-types-become-video-item-types">
+<h2>“Movie” item types become “Video” item types<a class="headerlink" href="#movie-item-types-become-video-item-types" title="Permalink to this headline">¶</a></h2>
+<p>After the upgrde the following item type descriptions will change:</p>
+<div class="line-block">
+<div class="line"><strong>MOVIE</strong> becomes <strong>VIDEO</strong></div>
+<div class="line"><strong>LOCAL HOLD MOVIE</strong> becomes <strong>VIDEO (Local requests only)</strong></div>
+<div class="line"><strong>NEW MOVIE</strong> becomes <strong>VIDEO (New)</strong></div>
+<div class="line"><strong>WALKIN MOVIE</strong> becomes <strong>VIDEO (No requests allowed)</strong></div>
+</div>
+<p>Staff client - before:</p>
+<img alt="_images/itypes_movies010.png" src="_images/itypes_movies010.png" />
+<p>Staff client - after:</p>
+<img alt="_images/itypes_movies020.png" src="_images/itypes_movies020.png" />
+<p>All of these item types will appear in the OPAC as “VIDEO”</p>
+<p>OPAC - before:</p>
+<img alt="_images/itypes_movies050.png" src="_images/itypes_movies050.png" />
+<p>OPAC - after:</p>
+<img alt="_images/itypes_movies060.png" src="_images/itypes_movies060.png" />
+<div class="line-block">
+<div class="line">This will also affect the search facets.</div>
+</div>
+<div class="line-block">
+<div class="line">Before:</div>
+</div>
+<img alt="_images/itypes_movies030.png" src="_images/itypes_movies030.png" />
+<p>After:</p>
+<img alt="_images/itypes_movies040.png" src="_images/itypes_movies040.png" />
 <hr class="docutils" />
 </div>
 </div>
@@ -282,10 +301,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="cataloging_overview.html" class="btn btn-neutral float-right" title="Koha 19.05 Training - Cataloging" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="cataloging_overview.html" class="btn btn-neutral float-right" title="Koha Upgrade - Cataloging" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="opac_changes.html" class="btn btn-neutral" title="Koha 19.05 Training - OPAC" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="opac_changes.html" class="btn btn-neutral" title="Koha Upgrade - OPAC" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

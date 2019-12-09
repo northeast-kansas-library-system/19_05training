@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Koha 19.05 Training - Cataloging &mdash; Next Search Catalog 19.05 training  documentation</title>
+  <title>Koha Upgrade - Cataloging &mdash; Next Search Catalog 19.05 training  documentation</title>
   
 
   
@@ -29,8 +29,8 @@
   <link rel="stylesheet" href="_static/override.css" type="text/css" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Koha 19.05 Training Part 1" href="part_1.html" />
-    <link rel="prev" title="Koha 19.05 Training - 1/2 OPAC - 1/2 staff" href="opac_staff.html" /> 
+    <link rel="next" title="Koha Upgrade Part 1" href="part_1.html" />
+    <link rel="prev" title="Koha Upgrade - 1/2 OPAC - 1/2 staff" href="opac_staff.html" /> 
 
   
   <script src="_static/js/modernizr.min.js"></script>
@@ -85,19 +85,22 @@
               <p class="caption"><span class="caption-text">Contents:</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="clearcache/clearcache.html">Clearing the cache on your browser</a></li>
-<li class="toctree-l1"><a class="reference internal" href="opac_changes.html">Koha 19.05 Training - OPAC</a></li>
-<li class="toctree-l1"><a class="reference internal" href="opac_staff.html">Koha 19.05 Training - 1/2 OPAC - 1/2 staff</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Koha 19.05 Training - Cataloging</a><ul>
+<li class="toctree-l1"><a class="reference internal" href="selfcheck.html">Koha Upgrade - Self check changes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="opac_changes.html">Koha Upgrade - OPAC</a></li>
+<li class="toctree-l1"><a class="reference internal" href="opac_staff.html">Koha Upgrade - 1/2 OPAC - 1/2 staff</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Koha Upgrade - Cataloging</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#cataloging-changes">Cataloging changes</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#changes-in-the-edit-bibliographic-record-interface">Changes in the edit bibliographic record interface</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#removal-of-outdated-message-on-fast-add-framework">Removal of outdated message on Fast add framework</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#add-edit-item-interface">Add/edit item interface</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#advanced-cataloging-editor">Advanced cataloging editor</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="part_1.html">Koha 19.05 Training Part 1</a></li>
-<li class="toctree-l1"><a class="reference internal" href="part_2.html">Koha 19.05 Training Part 2</a></li>
-<li class="toctree-l1"><a class="reference internal" href="part_3.html">Koha 19.05 Training Part 3</a></li>
+<li class="toctree-l1"><a class="reference internal" href="part_1.html">Koha Upgrade Part 1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="part_2.html">Koha Upgrade Part 2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="part_3.html">Koha Upgrade Part 3</a></li>
 </ul>
 
             
@@ -143,7 +146,7 @@
     
       <li><a href="index.html">Docs</a> &raquo;</li>
         
-      <li>Koha 19.05 Training - Cataloging</li>
+      <li>Koha Upgrade - Cataloging</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -162,8 +165,8 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="koha-19-05-training-cataloging">
-<h1>Koha 19.05 Training - Cataloging<a class="headerlink" href="#koha-19-05-training-cataloging" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="koha-upgrade-cataloging">
+<h1>Koha Upgrade - Cataloging<a class="headerlink" href="#koha-upgrade-cataloging" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="cataloging-changes">
 <h2>Cataloging changes<a class="headerlink" href="#cataloging-changes" title="Permalink to this headline">¶</a></h2>
 <hr class="docutils" />
@@ -184,10 +187,25 @@
 <img alt="_images/cataloging.030.png" src="_images/cataloging.030.png" />
 <p>After the upgrade we will see:</p>
 <img alt="_images/cataloging.040.png" src="_images/cataloging.040.png" />
+</div>
 <hr class="docutils" />
-<p>Changes to the add/edit item interface</p>
+<div class="section" id="add-edit-item-interface">
+<h3>Add/edit item interface<a class="headerlink" href="#add-edit-item-interface" title="Permalink to this headline">¶</a></h3>
+<p>The fields in the add/edit item editor are the subfields from the 952 field in the Marc record.  They are currently arranged in alphanumeric order by subfield code.  After the upgrade they’ll be grouped by their function.</p>
+<p>Currently we see:</p>
+<img alt="_images/addedit_010.png" src="_images/addedit_010.png" />
+<p>After the upgrade we will see:</p>
+<img alt="_images/addedit_020.png" src="_images/addedit_020.png" />
+</div>
 <hr class="docutils" />
-<p>Advanced cataloging editor</p>
+<div class="section" id="advanced-cataloging-editor">
+<h3>Advanced cataloging editor<a class="headerlink" href="#advanced-cataloging-editor" title="Permalink to this headline">¶</a></h3>
+<p>The advanced cataloging editor has been a part of Koha for several years now, but we have not turned it on because there is a potential that an untrained staff member could accidentally damage bibliographic records with this tool.</p>
+<p>After the upgrade the advanced cataloging editor has been tied to a security setting so it can be turned on for specific individual staff members that have been trained in how to use it.</p>
+<p>To access the editor, look under the “Settings” button:</p>
+<img alt="_images/advancededitor_010.png" src="_images/advancededitor_010.png" />
+<p>Once the editor is open, you should see this interface:</p>
+<img alt="_images/advancededitor_020.png" src="_images/advancededitor_020.png" />
 <hr class="docutils" />
 </div>
 </div>
@@ -201,10 +219,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="part_1.html" class="btn btn-neutral float-right" title="Koha 19.05 Training Part 1" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="part_1.html" class="btn btn-neutral float-right" title="Koha Upgrade Part 1" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="opac_staff.html" class="btn btn-neutral" title="Koha 19.05 Training - 1/2 OPAC - 1/2 staff" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="opac_staff.html" class="btn btn-neutral" title="Koha Upgrade - 1/2 OPAC - 1/2 staff" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

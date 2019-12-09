@@ -1,4 +1,4 @@
-Koha 19.05 Training - OPAC
+Koha Upgrade - OPAC
 ==========================
 
 There are only a few minor changes to the Online Patron Access Catalog (OPAC) in this upgrade.
