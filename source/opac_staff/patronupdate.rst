@@ -21,6 +21,9 @@ A bug was introduced in the last upgrade that has been fixed in the new version 
 
 -----
 
+Frequently asked questions
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
   * Q: **What was the bug that was introduced?**
   * A: When a patron suggested a change to their contact information, if the library approved the change, their birthdate was deleted.
 

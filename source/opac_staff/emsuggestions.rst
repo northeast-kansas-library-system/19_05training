@@ -47,6 +47,9 @@ The box below contains the template for the e-mail message that the system will 
 | *Any text in [square brackets] is a template toolkit tag and should only be changed if you understand template toolkit*
 | *Any text in <<double angle brackets>> is a Koha database field and should only be changed if you know the Koha database schema*
 
+Frequently asked questions
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
   * Q: **What e-mail address do suggestions go to?**
   * A: It goes to the e-mail address that is set up in Koha as the master e-mail address for your library.  If you're not sure which e-mail address this is, look at the library directory table on the Circulaton page in the staff client in the column labeled "Contact information."
 
