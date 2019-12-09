@@ -10,18 +10,29 @@ Beginning with the upgrade on January 4, 2020, all new patrons will have their d
 * Hold filled: Email
 * Email check-out/renewal receipt: Email
 
-The table in the Patron messaging preferences will, by default, look like this:
+Here are some screen shots:
 
-.. TODO::Email insert image
+Before
 
-Questions and answers
-^^^^^^^^^^^^^^^^^^^^^
+.. image:: images/patrons_messaging010.png
+
+After:
+
+.. image:: images/patrons_messaging020.png
+
+-----
+
+Frequently asked questions
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
   - Q: Will this affect existing patrons?
   - A: No.  This will only affect patrons created after January 4, 2020.
 
-  * Q: What if a patron doesn't want to get e-mail?
+  * Q: What if a patron doesn't have an e-mail address?
   * A: If you don't enter an e-mail address for the patron, none of these settings have **any** effect on the patron's account.
 
-  - Q: What if a patron doesn't want some of these e-mails but not all of these e-mails?
-  - A: Un-check the boxes next to the messages the patron doesn't want to get.
+  - Q: What if a patron has an e-mail address but doesn't want us to send them any e-mail?
+  - A: If the patron doesn't want us to send *any* e-mail, don't enter their e-mail address.
+
+  * Q: What if a patron doesn't want some of these e-mails but not all of these e-mails?
+  * A: Un-check the boxes next to the messages the patron doesn't want to get.

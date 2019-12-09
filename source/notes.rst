@@ -23,8 +23,6 @@ George's notes
   - changes to the add item interface
   - advanced cataloging editor - requires permission setting - use http://staff-test.nexpresslibrary.org/cgi-bin/koha/catalogue/detail.pl?biblionumber=537077 as an example
 10. Search results show items available, on hold, and on loan -test server John Grisham 2019
-
-
 #. Reports
   - There will be several back-end database changes that will affect several reports.  These reports cannot be updated until after upgrade, so if you find a report that does not work correctly, let me know and I will move it to the top of the list to be fixed.
 

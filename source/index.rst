@@ -19,9 +19,9 @@ Next Search Catalog - Upgrade Training - Koha 19.05
    cataloging_overview
    searching
    reports
+   messaging
    part_1
    part_2
-   part_3
 
 
 
