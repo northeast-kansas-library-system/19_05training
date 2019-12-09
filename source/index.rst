@@ -17,6 +17,8 @@ Next Search Catalog - Upgrade Training - Koha 19.05
    opac_changes
    opac_staff
    cataloging_overview
+   searching
+   reports
    part_1
    part_2
    part_3

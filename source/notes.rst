@@ -22,7 +22,6 @@ George's notes
   - removal of outdated message on fast ad framework
   - changes to the add item interface
   - advanced cataloging editor - requires permission setting - use http://staff-test.nexpresslibrary.org/cgi-bin/koha/catalogue/detail.pl?biblionumber=537077 as an example
-
 10. Search results show items available, on hold, and on loan -test server John Grisham 2019
 
 
