@@ -19,7 +19,7 @@ Next Search Catalog - Upgrade Training - Koha 19.05
    cataloging_overview
    searching
    reports
-   messaging
+   patrons
    part_1
    part_2
 

@@ -25,11 +25,9 @@ George's notes
 10. Search results show items available, on hold, and on loan -test server John Grisham 2019
 #. Reports
   - There will be several back-end database changes that will affect several reports.  These reports cannot be updated until after upgrade, so if you find a report that does not work correctly, let me know and I will move it to the top of the list to be fixed.
-
 12. Notices
   - Currently "Item due" and "Advance" notices are sent from the patron's home library - regardless of where the item was checked out.  After the upgrade, they will be sent from the library - or libraries - where the items were checked out.
   - After the upgrade we're changing the default messaging preferences for ALL patrons so that, if they have an e-mail address, they will automatically receive "Item due," "Advanced notices," "Hold arrived," and "Digital check-out receipt" messages by default.  It will become opt-out instead of opt-in.
-
 13. Patron's phone number now shows up during circulation searches
   - search for Frosty - I don't like this change - needs columnconf
 

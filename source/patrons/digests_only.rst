@@ -6,7 +6,6 @@ For the "Item due" and "Advanced notice" messaging preferences, if staff check "
 .. only:: html
 
    .. image:: images/digestsonly.010.gif
-      :class: with-border
 
 .. only:: latex
 
