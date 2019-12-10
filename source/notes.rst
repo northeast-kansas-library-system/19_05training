@@ -30,20 +30,16 @@ George's notes
   - After the upgrade we're changing the default messaging preferences for ALL patrons so that, if they have an e-mail address, they will automatically receive "Item due," "Advanced notices," "Hold arrived," and "Digital check-out receipt" messages by default.  It will become opt-out instead of opt-in.
 13. Patron's phone number now shows up during circulation searches
   - search for Frosty - I don't like this change - needs columnconf
-
 14. Cities and towns now available for alt address and alt contact
-
 #. Patron logs
   - Patron log files will now show what changes were made to a patron's account
   - Use FROSTX018 as an example
   - Log files only contain data from the last 60 days
+19. Changing the status of an "In transit" to any of the lost/missing statuses will remove the "In transit" status of the item
+18. Go through fines/fees Changes
+  - FROSTX011 is a good example
 
 16. Print slip and then close button
   - Check out items to FROSTX016 to demonstrate
 
 17. Change to text of print drop-downs - also use FROSTX016
-
-18. Go through fines/fees Changes
-  - FROSTX011 is a good example
-
-19. Changing the status of an "In transit" to any of the lost/missing statuses will remove the "In transit" status of the item

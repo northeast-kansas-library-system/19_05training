@@ -1,5 +1,5 @@
 Removal of outdated message on Fast add framework
---------------------------------------------------
+---------------------------------------------------
 
 In October we modified the Fast add framework so that the 000 and 008 fields were no longer required on Fast add records (ILL records).
 

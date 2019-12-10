@@ -1,5 +1,5 @@
 "Movie" item types become "Video" item types
----------------------------------------------
+----------------------------------------------
 
 After the upgrde the following item type descriptions will change:
 

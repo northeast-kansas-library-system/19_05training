@@ -1,5 +1,5 @@
 Koha Upgrade Training Overview
-===============================
+================================
 
 Next Search Catalog will upgrade to Koha 19.05 on the evening of Saturday, January 4, 2020.
 

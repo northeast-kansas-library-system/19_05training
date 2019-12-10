@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 Next Search Catalog - Upgrade Training - Koha 19.05
-====================================================
+=====================================================
 
 .. include:: agenda.rst
 
@@ -20,14 +20,6 @@ Next Search Catalog - Upgrade Training - Koha 19.05
    searching
    reports
    patrons
-   part_1
-   part_2
-
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   statuses
+   fees
+   receipts

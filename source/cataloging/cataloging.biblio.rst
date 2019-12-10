@@ -1,5 +1,5 @@
 Changes in the edit bibliographic record interface
----------------------------------------------------
+----------------------------------------------------
 
 When entering a new bibliographic record, the look and layout of the 000, 100, 200, etc. tabs have changed.
 

@@ -1,5 +1,5 @@
 Koha Upgrade - Report changes
-==============================
+===============================
 
 There will be some broken reports.
 
