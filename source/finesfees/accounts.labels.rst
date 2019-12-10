@@ -1,5 +1,5 @@
 Labeling changes for fines/fees/accounting
-------------------------------------------
+-------------------------------------------
 
 The label on the "Fines and fees" tab has changed as well as some of the other tabs in the fines interface.
 

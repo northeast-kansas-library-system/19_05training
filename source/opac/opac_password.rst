@@ -1,5 +1,5 @@
 Password change text
---------------------
+---------------------
 
 There are some minor changes in the text related to password changes in the OPAC have changed.
 

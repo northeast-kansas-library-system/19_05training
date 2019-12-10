@@ -1,5 +1,5 @@
 Patron contact updates
-----------------------
+-----------------------
 
 A bug was introduced in the last upgrade that has been fixed in the new version that made it necessary to turn off patron's ability to submit changes to their contact information through the OPAC.  This is a quick review of how to handle patron suggested contact information updates.
 

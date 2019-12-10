@@ -1,5 +1,5 @@
 Patron search results
----------------------
+----------------------
 
 After the upgrade, the patron's phone number will be included in search results when searching for patrons in check-out.
 

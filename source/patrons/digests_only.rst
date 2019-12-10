@@ -1,5 +1,5 @@
 Email and Digests only
-----------------------
+-----------------------
 
 For the "Item due" and "Advanced notice" messaging preferences, if staff check "Email," "Digests only" will also be checked automatically.
 

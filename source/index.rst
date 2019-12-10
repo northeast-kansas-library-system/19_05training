@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 Next Search Catalog - Upgrade Training - Koha 19.05
-===================================================
+====================================================
 
 .. include:: agenda.rst
 

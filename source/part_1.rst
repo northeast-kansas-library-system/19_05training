@@ -1,5 +1,5 @@
 Koha Upgrade Part 1
-==========================
+=====================
 
 Changes to existing operation
 #############################

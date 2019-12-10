@@ -1,5 +1,5 @@
 Patron messaging preferences defaults
--------------------------------------
+--------------------------------------
 
 Since time immemorial, Next Search Catalog has had the default settings for a patron's messaging preferences only set to automatically send patrons a notification when requests arrive and are ready to be picked up.
 

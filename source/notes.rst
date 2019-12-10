@@ -1,5 +1,5 @@
 George's notes
-==============
+===============
 
 #. Currently on Koha 18.11 - this will be an upgrade to Koha 19.05
 #. January 4 - Saturday after hours
