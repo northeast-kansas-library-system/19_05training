@@ -1,0 +1,382 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Koha Upgrade - Patron changes &mdash; Next Search Catalog 19.05 training  documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/override.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Koha Upgrade - Item statuses" href="statuses.html" />
+    <link rel="prev" title="Koha Upgrade - Report changes" href="reports.html" /> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html">
+          
+
+          
+            
+            <img src="_static/next.grey.small.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="clearcache/clearcache.html">Clearing the cache on your browser</a></li>
+<li class="toctree-l1"><a class="reference internal" href="selfcheck.html">Koha Upgrade - Self check changes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="opac_changes.html">Koha Upgrade - OPAC</a></li>
+<li class="toctree-l1"><a class="reference internal" href="opac_staff.html">Koha Upgrade - 1/2 OPAC - 1/2 staff</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cataloging_overview.html">Koha Upgrade - Cataloging</a></li>
+<li class="toctree-l1"><a class="reference internal" href="searching.html">Koha Upgrade - Searching</a></li>
+<li class="toctree-l1"><a class="reference internal" href="reports.html">Koha Upgrade - Report changes</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Koha Upgrade - Patron changes</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#patron-messaging-preferences-defaults">Patron messaging preferences defaults</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#frequently-asked-questions">Frequently asked questions</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#email-and-digests-only">Email and Digests only</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id1">Frequently asked questions</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#patron-search-results">Patron search results</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id2">Frequently asked questions</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#cities-and-towns">Cities and towns</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#patron-logs">Patron logs</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id3">Frequently asked questions</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="statuses.html">Koha Upgrade - Item statuses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="fees.html">Koha Upgrade - Fees</a></li>
+<li class="toctree-l1"><a class="reference internal" href="receipts.html">Koha Upgrade - Receipts</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Next Search Catalog 19.05 training</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Koha Upgrade - Patron changes</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/patrons.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="koha-upgrade-patron-changes">
+<h1>Koha Upgrade - Patron changes<a class="headerlink" href="#koha-upgrade-patron-changes" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="patron-messaging-preferences-defaults">
+<h2>Patron messaging preferences defaults<a class="headerlink" href="#patron-messaging-preferences-defaults" title="Permalink to this headline">¶</a></h2>
+<p>Since time immemorial, Next Search Catalog has had the default settings for a patron’s messaging preferences only set to automatically send patrons a notification when requests arrive and are ready to be picked up.</p>
+<p>Beginning with the upgrade on January 4, 2020, all new patrons will have their default messaging preferences set to send them the following messages via e-mail:</p>
+<ul class="simple">
+<li>Item due: Email digest</li>
+<li>Advanced notice: 3 days, Email digest</li>
+<li>Hold filled: Email</li>
+<li>Email check-out/renewal receipt: Email</li>
+</ul>
+<p>Here are some screen shots:</p>
+<p>Before</p>
+<img alt="_images/patrons_messaging010.png" src="_images/patrons_messaging010.png" />
+<p>After:</p>
+<img alt="_images/patrons_messaging020.png" src="_images/patrons_messaging020.png" />
+<hr class="docutils" />
+<div class="section" id="frequently-asked-questions">
+<h3>Frequently asked questions<a class="headerlink" href="#frequently-asked-questions" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul class="simple">
+<li>Q: Will this affect existing patrons?</li>
+<li>A: No.  This will only affect patrons created after January 4, 2020.</li>
+</ul>
+<ul class="simple">
+<li>Q: What if a patron doesn’t have an e-mail address?</li>
+<li>A: If you don’t enter an e-mail address for the patron, none of these settings have <strong>any</strong> effect on the patron’s account.</li>
+</ul>
+<ul class="simple">
+<li>Q: What if a patron has an e-mail address but doesn’t want us to send them any e-mail?</li>
+<li>A: If the patron doesn’t want us to send <em>any</em> e-mail, don’t enter their e-mail address.</li>
+</ul>
+<ul class="simple">
+<li>Q: What if a patron doesn’t want some of these e-mails but not all of these e-mails?</li>
+<li>A: Un-check the boxes next to the messages the patron doesn’t want to get.</li>
+</ul>
+</div></blockquote>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="email-and-digests-only">
+<h2>Email and Digests only<a class="headerlink" href="#email-and-digests-only" title="Permalink to this headline">¶</a></h2>
+<p>For the “Item due” and “Advanced notice” messaging preferences, if staff check “Email,” “Digests only” will also be checked automatically.</p>
+<img alt="_images/digestsonly.010.gif" src="_images/digestsonly.010.gif" />
+<p>In the past it has been possible to check the “Digests only” checkbox without also checking the “Email” checkbox.  When “Digests only” is checked and “Email” is not, the patron will not receive any e-mail for that notice.  Because many staff don’t understand this, we added code that automatically checks the “Digests only” checkbox whenever “Email” is checked.</p>
+<div class="section" id="id1">
+<h3>Frequently asked questions<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul class="simple">
+<li>Q: What does “Digests only” mean?</li>
+<li>A: In the case of the “Item due” and “Advanced notice,” if a patron checks out 25 books, when those items are due, the patron will receive 1 e-mail saying that all 25 of those items are due.</li>
+</ul>
+<ul class="simple">
+<li>Q: What if “Digests only” is turned off?</li>
+<li>A: In the case of the “Item due” and “Advanced notice,” if a patron checks out 25 books, and “Digests only” is turned off, the patron will receive 25 separate e-mails saying those items are due - 1 e-mail for each item.</li>
+</ul>
+<ul class="simple">
+<li>Q: If I can no longer control the “Digests only” checkboxes, why can I still see the “Digests only” column.</li>
+<li>A: We are working on removing that entire column from the screen.</li>
+</ul>
+<ul class="simple">
+<li>Q: Can patrons still modify their own “Digests only” settings.</li>
+<li>A: Yes.  And we are working on that too.</li>
+</ul>
+<ul class="simple">
+<li>Q: Why aren’t there “Digests only” options for the “Email check-in receipt” and “Email check-out/renewal receipt” notices?</li>
+<li>A: “Email check-in receipt” and “Email check-out/renewal receipt” digest automatically with one caveat - they are sent every 15 minutes at X:00, X:15, X:30, and X:45.  So, if a patron is checking out 50 items and you check 45 of those items out at 10:14 a.m. and the last 5 at 10:15 a.m., the patron will receive 1 e-mail with 45 items at 10:15 a.m. and a second e-mail with the additional 5 items at 10:30 a.m.</li>
+</ul>
+<ul class="simple">
+<li>Q: Why isn’t there a “Digests only” option for the “Hold filled” message.</li>
+<li>A: Currently Koha does not have the ability to digest this message.  A development is underway that would add that function to the system.  When completed, this development would work similarly to the self-digesting “Email check-in receipt” and “Email check-out/renewal receipt” once-every-15-minutes schedule.</li>
+</ul>
+</div></blockquote>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="patron-search-results">
+<h2>Patron search results<a class="headerlink" href="#patron-search-results" title="Permalink to this headline">¶</a></h2>
+<p>After the upgrade, the patron’s phone number will be included in search results when searching for patrons in check-out.</p>
+<p>Here are some screen shots.</p>
+<p>BEFORE:</p>
+<img alt="_images/borrowers_search_010.png" src="_images/borrowers_search_010.png" />
+<p>AFTER:</p>
+<img alt="_images/borrowers_search_020.png" src="_images/borrowers_search_020.png" />
+<div class="section" id="id2">
+<h3>Frequently asked questions<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul class="simple">
+<li>Q: <strong>If some staff members are blocked from seeing patron details, doesn’t this allow them to see confidential data they shouldn’t be able to see?</strong></li>
+<li>A: Yes, it does.  We’re working on correcting that.</li>
+</ul>
+</div></blockquote>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="cities-and-towns">
+<h2>Cities and towns<a class="headerlink" href="#cities-and-towns" title="Permalink to this headline">¶</a></h2>
+<p>Currently Koha allows you to select a city/state/zip code combination from a drop-down list when adding a patron’s address.  Some libraries use “Alternate address” and “Alternate contact” which both have address fields, but do not have a drop-down for a city/state/zip code combination.</p>
+<p>After the upgrade, the drop-down for city/state/zip code combinations will be added to those addresses.</p>
+<p>BEFORE:</p>
+<img alt="_images/borrower_citytown_010.png" src="_images/borrower_citytown_010.png" />
+<p>AFTER:</p>
+<img alt="_images/borrower_citytown_020.png" src="_images/borrower_citytown_020.png" />
+</div>
+<hr class="docutils" />
+<div class="section" id="patron-logs">
+<h2>Patron logs<a class="headerlink" href="#patron-logs" title="Permalink to this headline">¶</a></h2>
+<p>There are changes in Koha 19.05 that adds more information to the patron logs.</p>
+<p>Currently if you change a patron’s name or contact information or anything else on their account, the only thing recorded in the patron logs is a note that the account was updated.  After the upgrade, there will be details about what was changed.</p>
+<p>The caveat concerning this change is that we can only see changes made within the previous 60 days.</p>
+<p>Here are some examples of what this looks like in the log viewer.</p>
+<p>BEFORE:</p>
+<img alt="_images/borrowers_logs_010.png" src="_images/borrowers_logs_010.png" />
+<p>AFTER:</p>
+<img alt="_images/borrowers_logs_020.png" src="_images/borrowers_logs_020.png" />
+<div class="section" id="id3">
+<h3>Frequently asked questions<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul class="simple">
+<li>Q: <strong>Can we see the logs?</strong></li>
+<li>A: Currently, no.  Now that there is useful information in the patron logs, though, we will write reports to help you access the logs.</li>
+</ul>
+<ul class="simple">
+<li>Q: <strong>Why can’t the logs show changes more than 60 days old?</strong></li>
+<li>A: A lot of data is logged.  Changes to item records, bibliographic records, patron records, and circulation records are all logged.  Currently we have a script running every night to delete any lines in the log files more than 60 days old in order to keep the log files from getting so large that they would slow down the entire system.</li>
+</ul>
+</div></blockquote>
+<hr class="docutils" />
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="statuses.html" class="btn btn-neutral float-right" title="Koha Upgrade - Item statuses" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="reports.html" class="btn btn-neutral" title="Koha Upgrade - Report changes" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, NEKLS
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script type="text/javascript">
+          var DOCUMENTATION_OPTIONS = {
+              URL_ROOT:'./',
+              VERSION:'',
+              LANGUAGE:'None',
+              COLLAPSE_INDEX:false,
+              FILE_SUFFIX:'.html',
+              HAS_SOURCE:  true,
+              SOURCELINK_SUFFIX: '.txt'
+          };
+      </script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+    
+
+  
+
+  <script type="text/javascript" src="_static/js/theme.js"></script>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
