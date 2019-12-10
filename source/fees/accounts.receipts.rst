@@ -1,5 +1,5 @@
 Fine invoices and payment receipts now customizable
------------------------------------------------------
+---------------------------------------------------
 
 Need a before/after receipt example.
 

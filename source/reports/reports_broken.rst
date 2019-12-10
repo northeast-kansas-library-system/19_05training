@@ -1,5 +1,5 @@
 Broken reports
-----------------
+--------------
 
 This is a change that we can't really show you.
 

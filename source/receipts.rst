@@ -1,5 +1,5 @@
 Koha Upgrade - Receipts
-=========================
+=======================
 
 
 There are a couple of changes to printing receipts for patrons.

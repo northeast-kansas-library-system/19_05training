@@ -1,5 +1,5 @@
 Koha Upgrade - Patron changes
-===============================
+=============================
 
 
 .. include::  patrons\messaging_defaults.rst

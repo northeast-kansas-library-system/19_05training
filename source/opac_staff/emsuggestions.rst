@@ -1,5 +1,5 @@
 E-mail purchase suggestions to the library
---------------------------------------------
+------------------------------------------
 
 Currently, when a patron fills out the suggestion form in the OPAC, the only notification the library receives is an increase in the "Suggestions pending approval:" number on the home page in the staff client.
 

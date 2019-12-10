@@ -1,5 +1,5 @@
 Searching - availability display
-----------------------------------
+--------------------------------
 
 In the search results page, Koha used to describe items as:
 

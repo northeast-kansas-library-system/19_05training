@@ -1,5 +1,5 @@
 Frequently asked questions
-----------------------------
+--------------------------
 
   * Q: **Question**
   * A: Answer

@@ -1,5 +1,5 @@
 Patron logs
--------------
+-----------
 
 
 There are changes in Koha 19.05 that adds more information to the patron logs.

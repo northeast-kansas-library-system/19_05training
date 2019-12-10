@@ -1,5 +1,5 @@
 Print drop-down changes
--------------------------
+-----------------------
 
 
 The text under the "Print" button doesn't clearly describe what the options do.  The text will be updated during the upgrade.

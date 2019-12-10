@@ -1,5 +1,5 @@
 Advanced cataloging editor
-----------------------------
+--------------------------
 
 The advanced cataloging editor has been a part of Koha for several years now, but we have not turned it on because there is a potential that an untrained staff member could accidentally damage bibliographic records with this tool.
 

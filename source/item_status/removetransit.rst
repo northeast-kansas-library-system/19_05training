@@ -1,5 +1,5 @@
 In transit items and lost and missing statuses
-------------------------------------------------
+----------------------------------------------
 
 
 When an item that is "In transit" from one library to another is marked as "Missing (unable to location on shelf)" the "In transit" status will now be removed.

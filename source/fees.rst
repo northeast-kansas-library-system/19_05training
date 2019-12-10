@@ -1,5 +1,5 @@
 Koha Upgrade - Fees
-======================
+===================
 
 
 There will be quite a few changes to fees.
