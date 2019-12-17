@@ -7,8 +7,16 @@ Video on this topic:
 
 Watch a YouTube video about the upgrade and clearing your cache.
 
-.. raw:: html
+.. only:: html
 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/h4zTNGkxPyI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  .. raw:: html
+
+      <div style="position:relative;padding-top:50%;">
+        <iframe src="https://www.youtube.com/embed/h4zTNGkxPyI" frameborder="0" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+      </div>
+
+.. only:: latex
+
+   https://youtu.be/h4zTNGkxPyI
 
 -----
