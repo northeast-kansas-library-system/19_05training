@@ -91,13 +91,17 @@
 <li class="toctree-l1"><a class="reference internal" href="cataloging_overview.html">Koha Upgrade - Cataloging</a></li>
 <li class="toctree-l1"><a class="reference internal" href="searching.html">Koha Upgrade - Searching</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Koha Upgrade - Report changes</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#broken-reports">Broken reports</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#broken-reports">Broken reports</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#video-on-this-topic">Video on this topic:</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="patrons.html">Koha Upgrade - Patron changes</a></li>
 <li class="toctree-l1"><a class="reference internal" href="statuses.html">Koha Upgrade - Item statuses</a></li>
 <li class="toctree-l1"><a class="reference internal" href="fees.html">Koha Upgrade - Fees</a></li>
 <li class="toctree-l1"><a class="reference internal" href="receipts.html">Koha Upgrade - Receipts</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://www.youtube.com/playlist?list=PLCFhpYAI2ZLmAAqv7U8jZ0WfxgoR4rRQg">Training videos on YouTube</a></li>
 </ul>
 
             
@@ -172,7 +176,13 @@
 <p>There are some back-end changes to the database - particularly in the fines tables - that will break about a dozen of our existing reports.  This is not an uncommon thing during an upgrade (we had an upgrade 2.5 years ago that broke hundreds of reports) but the issue with this change is that we cannot fix the reports until after the upgrade is over.  If we fixed the reports now, they’d stop working until after the upgrade.  If we don’t fix them now, they’ll break the day after the upgrade.</p>
 <p>So, this is really just to inform you that, if, after the upgrade, you try to run a report and that report fails, let us know at <a class="reference external" href="mailto:nexthelp&#37;&#52;&#48;nekls&#46;org">nexthelp<span>&#64;</span>nekls<span>&#46;</span>org</a> and we’ll try to move the repair of that report to the top of the to-do list.</p>
 <p>We will try to start writing replacement reports on the test server as soon as we are done with the trainings, but it is likely that we will not finish writing those reports until after the upgrade.</p>
-<hr class="docutils" />
+<div class="section" id="video-on-this-topic">
+<h3>Video on this topic:<a class="headerlink" href="#video-on-this-topic" title="Permalink to this headline">¶</a></h3>
+<p>Watch a YouTube video about reports that may not work.</p>
+<div style="position:relative;padding-top:50%;">
+  <iframe src="https://www.youtube.com/embed/OAb5YK2MZ-E" frameborder="0" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+</div><hr class="docutils" />
+</div>
 </div>
 </div>
 

@@ -8,3 +8,5 @@ The upgrade will start sometime after all libraries have closed for the day and 
 NEKLS staff will run tests on Sunday morning and phone each open library on Sunday January 5 to make sure there are no unexpected problems.
 
 The rest of this website will cover most of the changes that will be added by this upgrade.
+
+You can also find a set of videos that covers all of the things discussed on this site at `Next search catalog upgrade - 2020-01 all videos  <https://www.youtube.com/playlist?list=PLCFhpYAI2ZLmAAqv7U8jZ0WfxgoR4rRQg>`_

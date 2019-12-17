@@ -23,3 +23,4 @@ Next Search Catalog - Upgrade Training - Koha 19.05
    statuses
    fees
    receipts
+   Training videos on YouTube <https://www.youtube.com/playlist?list=PLCFhpYAI2ZLmAAqv7U8jZ0WfxgoR4rRQg>
