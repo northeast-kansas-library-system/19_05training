@@ -5,8 +5,20 @@ Currently when a patron clicks on the "Your fines" tab, the information is displ
 
 BEFORE:
 
-.. image:: images/opac.finesorting.010.png
+.. only:: html
+
+   .. image:: images/opac.finesorting.010.png
+
+.. only:: latex
+
+   .. image:: images/opac.finesorting.015.png
 
 AFTER:
 
-.. image:: images/opac.finesorting.020.png
+.. only:: html
+
+   .. image:: images/opac.finesorting.020.png
+
+.. only:: latex
+
+   .. image:: images/opac.finesorting.025.png

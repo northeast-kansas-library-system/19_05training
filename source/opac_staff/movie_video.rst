@@ -30,11 +30,23 @@ OPAC - after:
 
 | Before:
 
-.. image:: images/itypes_movies030.png
+.. only:: html
+
+   .. image:: images/itypes_movies030.png
+
+.. only:: latex
+
+   .. image:: images/itypes_movies035.png
 
 After:
 
-.. image:: images/itypes_movies040.png
+.. only:: html
+
+   .. image:: images/itypes_movies040.png
+
+.. only:: latex
+
+   .. image:: images/itypes_movies045.png
 
 Frequently asked questions
 ^^^^^^^^^^^^^^^^^^^^^^^^^^

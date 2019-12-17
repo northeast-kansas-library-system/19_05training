@@ -11,7 +11,13 @@ After the upgrade, in addition to an increase in the "Suggestions pending approv
 
 Here is a copy of one of the new notices in a patron's messaging history on the test server:
 
-.. image:: images/email.020.png
+.. only:: html
+
+   .. image:: images/email.020.png
+
+.. only:: latex
+
+   .. image:: images/email.025.png
 
 The box below contains the template for the e-mail message that the system will be sending to your library's e-mail address when a patron submits a suggestion form:
 
