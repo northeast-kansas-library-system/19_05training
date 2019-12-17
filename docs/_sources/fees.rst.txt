@@ -21,7 +21,7 @@ There will be quite a few changes to fees.
 .. include:: fees/accounts.receipts.rst
 
 Video on this topic:
-^^^^^^^^^^^^^^^^^^^^
+--------------------
 
 Watch a YouTube video about changes in fees and fee payments.
 

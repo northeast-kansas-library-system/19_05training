@@ -3,7 +3,7 @@
 -----
 
 Video on this topic:
-^^^^^^^^^^^^^^^^^^^^
+####################
 
 Watch a YouTube video about the upgrade and clearing your cache.
 

@@ -10,7 +10,7 @@ There are some changes to the built-in self-check system.
 -----
 
 Video on this topic:
-^^^^^^^^^^^^^^^^^^^^
+--------------------
 
 Watch a YouTube video about changes to the self-check system.
 

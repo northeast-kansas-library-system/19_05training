@@ -5,7 +5,7 @@ Koha Upgrade - Searching
 .. include::  searching/search_available.rst
 
 Video on this topic:
-^^^^^^^^^^^^^^^^^^^^
+--------------------
 
 Watch a YouTube video about searching changes
 

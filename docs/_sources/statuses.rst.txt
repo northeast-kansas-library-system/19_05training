@@ -6,7 +6,7 @@ Koha Upgrade - Item statuses
 .. include::  item_status/removetransit.rst
 
 Video on this topic:
-^^^^^^^^^^^^^^^^^^^^
+--------------------
 
 Watch a YouTube video about changes in item statuses.
 

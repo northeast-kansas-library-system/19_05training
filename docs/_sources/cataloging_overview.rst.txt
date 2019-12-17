@@ -21,7 +21,7 @@ Cataloging changes
 .. include:: cataloging/advancededitor.rst
 
 Video on this topic:
-^^^^^^^^^^^^^^^^^^^^
+--------------------
 
 Watch a YouTube video about all of the changes in cataloging
 

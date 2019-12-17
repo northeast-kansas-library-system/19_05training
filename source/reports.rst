@@ -8,7 +8,7 @@ There will be some broken reports.
 .. include::  reports/reports_broken.rst
 
 Video on this topic:
-^^^^^^^^^^^^^^^^^^^^
+--------------------
 
 Watch a YouTube video about reports that may not work.
 

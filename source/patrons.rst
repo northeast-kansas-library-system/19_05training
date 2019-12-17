@@ -21,7 +21,7 @@ Koha Upgrade - Patron changes
 .. include::  patrons\patron_logs.rst
 
 Video on this topic:
-^^^^^^^^^^^^^^^^^^^^
+--------------------
 
 Watch a YouTube video about patron changes.
 

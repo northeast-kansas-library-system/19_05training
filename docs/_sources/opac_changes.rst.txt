@@ -10,7 +10,7 @@ There are only a few minor changes to the Online Patron Access Catalog (OPAC) in
 .. include::  opac/opac_finesort.rst
 
 Video on this topic:
-^^^^^^^^^^^^^^^^^^^^
+--------------------
 
 Watch a YouTube video about some minor changes to the OPAC that patrons may notice.
 

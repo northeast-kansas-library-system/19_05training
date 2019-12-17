@@ -13,7 +13,7 @@ There are a couple of changes to printing receipts for patrons.
 .. include::  receipts\receipts_close.rst
 
 Video on this topic:
-^^^^^^^^^^^^^^^^^^^^
+--------------------
 
 Watch a YouTube video about changes in printing receipts for patrons.
 
