@@ -1,6 +1,18 @@
 New columns and layout of accounting information
 ------------------------------------------------
 
-Columns on boraccount.pl (including item home library) - add a before/after picture
+A toolbar and some new columns have been added to the tables on the "Make a payment" and "Transactions" tabs.
 
-New +- sign for notes
+**The columns labeled "Return date" and "Account type" are problematically titled and may have their names changed before the upgrade**
+
+BEFORE:
+
+.. image:: images/finefee.030.png
+
+.. image:: images/finefee.050.png
+
+AFTER:
+
+.. image:: images/finefee.040.png
+
+.. image:: images/finefee.060.png
